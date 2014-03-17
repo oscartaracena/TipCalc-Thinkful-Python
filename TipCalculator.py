@@ -10,10 +10,16 @@ add tax and calculate the tip from the total. """
 
 tax = 0.09 #tax that will be charged for the meal
 tip = 0.15 #tip that will be added to the bill
+print "\n\n\n"
 
-print "Hello and please enter the total you spend on dinner: "
+#input of the amount of the meal
+print "Hello and please enter the total you spend on dinner:$ "
 totalCostofMeal = float(raw_input())
-
+print "\n\n"
+#The math and calculations 
 mealWithTax = (totalCostofMeal * tax)
 
-print mealWithTax + totalCostofMeal
+total = mealWithTax + totalCostofMeal 
+total1 = total * tip
+print str(total) + " which line is this?" 
+print str(total + total1) + " Is the total cost of meal with tax and tip."
