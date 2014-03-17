@@ -17,13 +17,18 @@ print "Hello and please enter the total you spend on dinner: "
 totalCostofMeal = float(raw_input())
 
 print "\n\n"
-print "$" + str(totalCostofMeal) 
+#print "$" + str(totalCostofMeal) 
+
+print("$" + "%.2f" % totalCostofMeal + " Is the cost of the meal")
+
 #The math and calculations 
 mealWithTax = (totalCostofMeal * tax)
 
 total = mealWithTax + totalCostofMeal 
 total1 = total * tip
-print str(total) + " Cost of dinner and tax" 
+#print str(total) + " Cost of dinner and tax" 
+print("$" + "%.2f" % total + " Cost of Dinner and Tax")
+print("$" + "%.2f" % total1 + " Is the tip!!")
 print "\n"
-print str(total + total1) + " Is the total cost of meal with tax and tip."
+print "$" +str(total + total1) + " Is the total cost of meal with tax and tip."
 print "\n"
