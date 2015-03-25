@@ -32,3 +32,5 @@ print("$" + "%.2f" % total1 + " Is the tip!!")
 print "\n"
 print "$" +str(total + total1) + " Is the total cost of meal with tax and tip."
 print "\n"
+print "\n"
+print "Oscar Taracena"
